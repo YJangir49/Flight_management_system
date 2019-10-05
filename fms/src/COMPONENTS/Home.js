@@ -12,7 +12,6 @@ import Navbar from "./Navbar";
 function Home(props) {
   return (
     <div className="cover-bg-img">
-      <Navbar />
       <div className="container">
         <div className="form-box">
           <h1 className="primary-heading">Book Your Flight</h1>

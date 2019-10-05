@@ -16,7 +16,7 @@ import {
   Label,
   Input
 } from "reactstrap";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import logo from "../logo.svg";
 
 export class Header extends Component {
@@ -49,9 +49,11 @@ export class Header extends Component {
             </Nav>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <Button outline>
-                  <span className="fa fa-sign-in"></span> Login
-                </Button>
+                <Link to="/login">
+                  <Button outline>
+                    <span className="fa fa-sign-in"></span> Login
+                  </Button>
+                </Link>
               </NavItem>
             </Nav>
           </Collapse>
