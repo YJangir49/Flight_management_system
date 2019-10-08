@@ -17,7 +17,12 @@ function Home(props) {
           <h1 className="primary-heading">Book Your Flight</h1>
           <form className="search-form">
             <span className="label form">From</span>
-            <input className="check" placeholder="From" type="text"></input>
+            <input
+              className="check"
+              id="from"
+              placeholder="From"
+              type="text"
+            ></input>
 
             <span className="label destination">Destination</span>
             <input
