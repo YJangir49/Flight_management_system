@@ -50,8 +50,8 @@ export class Header extends Component {
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <Link to="/login">
-                  <Button outline>
-                    <span className="fa fa-sign-in"></span> Login
+                  <Button outline className="login-btn">
+                    <span className="fa fa-sign-in "></span> Login
                   </Button>
                 </Link>
               </NavItem>

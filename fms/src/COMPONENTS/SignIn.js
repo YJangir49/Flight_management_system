@@ -23,14 +23,14 @@ function SignIn(props) {
         </label>
         <div className="login-form">
           <div className="sign-in-htm">
-            <div className="group">
-              <label for="user" className="label-form">
+            <div className="group-login">
+              <label for="user" className="label-form-signin">
                 Username
               </label>
               <input id="user" type="text" className="input" />
             </div>
-            <div className="group">
-              <label for="pass" className="label-form">
+            <div className="group-login">
+              <label for="pass" className="label-form-signin">
                 Password
               </label>
               <input
@@ -40,13 +40,18 @@ function SignIn(props) {
                 data-type="password"
               />
             </div>
-            <div className="group">
-              <input id="check" type="checkbox" className="check" />
-              <label for="check" className="label-form">
+            <div className="group-login">
+              <input
+                id="check"
+                type="checkbox"
+                className="check"
+                data-type="checkbox"
+              />
+              <label for="check" className="label-form-signin">
                 <span className="icon"></span> Keep me Signed in
               </label>
             </div>
-            <div className="group">
+            <div className="group-login">
               <input type="submit" className="button" value="Sign In" />
             </div>
             <div className="hr"></div>
@@ -55,14 +60,14 @@ function SignIn(props) {
             </div>
           </div>
           <div className="sign-up-htm">
-            <div className="group">
-              <label for="user" className="label-form">
+            <div className="group-login">
+              <label for="user" className="label-form-signin">
                 Username
               </label>
               <input id="user" type="text" className="input" />
             </div>
-            <div className="group">
-              <label for="pass" className="label-form">
+            <div className="group-login">
+              <label for="pass" className="label-form-signin">
                 Password
               </label>
               <input
@@ -72,8 +77,8 @@ function SignIn(props) {
                 data-type="password"
               />
             </div>
-            <div className="group">
-              <label for="pass" className="label-form">
+            <div className="group-login">
+              <label for="pass" className="label-form-signin">
                 Repeat Password
               </label>
               <input
@@ -83,13 +88,13 @@ function SignIn(props) {
                 data-type="password"
               />
             </div>
-            <div className="group">
-              <label for="pass" className="label-form">
+            <div className="group-login">
+              <label for="pass" className="label-form-signin">
                 Email Address
               </label>
               <input id="pass" type="text" className="input" />
             </div>
-            <div className="group">
+            <div className="group-login">
               <input type="submit" className="button" value="Sign Up" />
             </div>
             <div className="hr"></div>
